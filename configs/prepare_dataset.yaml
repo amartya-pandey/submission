@@ -1,5 +1,5 @@
 paths:
-  raw_path: /kaggle/input/aisehack-theme-2/raw
+  raw_path: /kaggle/input/competitions/aisehack-theme-2/raw/
   save_dir: /kaggle/temp/data
 
 data:
