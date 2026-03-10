@@ -1,0 +1,16 @@
+# =========================
+# Core deep learning and computing 
+# =========================
+
+torch>=2.0          # PyTorch core (training, autograd, FFTs, GPU/CPU)
+numpy               # Multidimensional array handling
+scipy               # Scientific routines, IO
+pandas              # Data handling
+
+# =========================
+# ML utilities
+# =========================
+
+scikit-learn        # Metrics, preprocessing, utilities
+tqdm                # Progress bars
+PyYAML              # YAML config system

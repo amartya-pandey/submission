@@ -1,0 +1,13 @@
+paths:
+  raw_path: /kaggle/input/aisehack-theme-2/raw
+  save_dir: /kaggle/temp/data
+
+data:
+  months: ['APRIL_16', 'JULY_16', 'DEC_16', 'OCT_16']
+  val_ratio: 0.2
+  H: 140
+  W: 124
+
+features:
+  target: cpm25
+  met_features: ['q2', 't2', 'u10', 'v10', 'swdown', 'pblh', 'psfc', 'rain']

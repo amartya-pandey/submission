@@ -1,0 +1,28 @@
+paths:
+  test_dir: /kaggle/input/aisehack-theme-2/test_in
+  data_dir: /kaggle/temp/data
+  model_dir: /kaggle/working
+  output_file: /kaggle/working/preds.npy
+
+data:
+  input_hours: 10
+  forecast_hours: 16
+  total_window: 26
+  H: 140
+  W: 124
+
+features:
+  target: cpm25
+  met_features: ['q2', 't2', 'u10', 'v10', 'swdown', 'pblh', 'psfc', 'rain']
+
+model:
+  fno_modes_hi: 20
+  fno_modes_lo: 8
+  fno_width: 64
+  fno_layers: 4
+  gru_hidden: 32
+  dropout: 0.15
+
+inference:
+  batch_size: 16
+  tta: true
