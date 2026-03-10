@@ -204,7 +204,7 @@ class TemporalFNO(nn.Module):
         # Init heads near zero so model starts from persistence
         for h in [self.head_short, self.head_long]:
             nn.init.zeros_(h.weight)
-            nn.init.zeCFGros_(h.bias)
+            nn.init.zeros_(h.bias)
 
     def forward(self, x):
         # x: (B, N_RAW_IN, H, W) — packed [pm25(10), diff(9), met+wind(286), latlon(2)]
