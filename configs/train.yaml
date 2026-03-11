@@ -46,5 +46,5 @@ ensemble:
 
 phase2:
   swa_start_frac: 0.70
-  min_retrain_epochs: 80
-  extra_epochs: 20
+  min_retrain_epochs: 60
+  extra_epochs: 15
