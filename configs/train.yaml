@@ -31,8 +31,8 @@ training:
   max_lr: 2.0e-3
   weight_decay: 1.0e-3
   grad_clip: 1.0
-  early_stop_patience: 50
-  snapshot_interval: 50
+  early_stop_patience: 15
+  snapshot_interval: 15
 
 augmentation:
   augment_flips: true
